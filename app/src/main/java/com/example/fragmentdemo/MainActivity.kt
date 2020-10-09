@@ -2,6 +2,7 @@ package com.example.fragmentdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.FragmentActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -18,7 +19,9 @@ class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        tab1.setOnClickListener(View.OnClickListener {
 
+        })
         tab1.setupWithViewPager(vp1)
 
 
