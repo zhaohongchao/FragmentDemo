@@ -19,9 +19,7 @@ class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tab1.setOnClickListener(View.OnClickListener {
 
-        })
         tab1.setupWithViewPager(vp1)
 
 
